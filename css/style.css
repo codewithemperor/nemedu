@@ -80,6 +80,7 @@
     --textColor: #505050;
     --light: #fff;
     --dark: #000;
+    --bgLight: #F9FAFB;
     --pFont: Questrial, sans-serif;
     --sFont: Titillium Web, sans-serif;
   }
@@ -95,9 +96,10 @@
     overflow-x: hidden;
     font-family: var(--pFont);
     color: var(--textColor);
-    background-color: #F9FAFB;
+    background-color: var(--light);
     font-weight: 400;
     text-rendering: auto;
+    background-color: var(--bgLight);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -191,8 +193,44 @@
     border: none;
   }
 
+  /* Study steps */
+  .study-step {
+    background-color: var(--bgLight);
+  }
+
+  .accordion-item{
+    border: 1px solid #8c441136;
+    overflow: hidden;
+    border-radius: 8px;
+    -webkit-border-radius: 8px  ;
+    -moz-border-radius: 8px  ;
+    -ms-border-radius: 8px  ;
+    -o-border-radius: 8px  ;
+}
+  
+
+  .accordion-item:not(:first-of-type) {
+    border-top: 1px solid #8c441136;
+}
+
+  .accordion-header, .accordion-header button{
+    color: var(--pColor) ;
+}
+
+  .accordion-button:not(.collapsed) {
+    color: var(--aColor);
+    background-color: #8c44110d;
+  }
+
   /* WHY NEMCL */
-  .card {
+  .why {
+    background-color: var(--light);
+  }
+
+  
+  
+
+  .why .card {
     border: none;
     box-shadow:  0 5px 15px 0 #0000000d;
     transition: all 0.5s ease;
@@ -202,7 +240,7 @@
     -o-transition: all 0.5s ease;
 }
 
-  .card:hover {
+  .why .card:hover {
     background-color: #f8fff8;
     transform: translateY(-5px);
     -webkit-transform: translateY(-5px);
@@ -211,7 +249,7 @@
     -o-transform: translateY(-5px);
 }
 
-  .card-body i {
+  .why .card-body i {
     font-size: 40px;
     color: var(--sColor);
     margin-bottom: 10px;
@@ -225,4 +263,45 @@
     margin-bottom: 10px;
     color: var(--dark);
   }
+
+  /* Six Destination */
+
+  .six-destination .card-title {
+    color: var(--pColor);
+  }
+
+  .six-destination .card {
+    overflow: hidden;
+    box-shadow:  0 5px 15px 0 #0000000d;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.six-destination h3 {
+  font-family: var(--sFont);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--light);
+}
+
+.six-destination .position-relative .card-1 {
+  aspect-ratio: 1/1;
+  margin-left: 12px;
+  background-color: rgba(255, 255, 255, 0.918);
+  backdrop-filter: blur(2px) ;
+  opacity: 0;
+  border: 2px solid var(--sColor);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.six-destination .position-relative:hover .card-1 {
+  opacity: 1;
+}
 
