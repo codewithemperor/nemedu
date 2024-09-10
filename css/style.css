@@ -146,7 +146,7 @@
 }
 
   /* Navbar */
-  .navbar.fixed-top{
+  .navbar.sticky-top{
     border-bottom: 1px solid var(--aColor);
 }
   .navbar-brand img{
