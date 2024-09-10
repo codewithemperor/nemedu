@@ -254,7 +254,7 @@
   }
 
   /* WHY NEMCL */
-  .why {
+  .why, .enquiry {
     background-color: var(--light);
   }
 
