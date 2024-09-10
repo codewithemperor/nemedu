@@ -93,6 +93,7 @@
 
   body {
     max-width: 100vw;
+    width: 100vw;
     overflow-x: hidden;
     font-family: var(--pFont);
     color: var(--textColor);
@@ -146,8 +147,14 @@
 }
 
   /* Navbar */
+  .navbar {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   .navbar.sticky-top{
     border-bottom: 1px solid var(--aColor);
+    overflow-x: hidden;
 }
   .navbar-brand img{
     height: 40px;
