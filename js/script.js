@@ -1,16 +1,11 @@
-(function ($) {
-    "use strict";
+window.onscroll = function() {
+    const element = document.querySelector('.navbar');
+    const scrollPosition = window.scrollY; // Get the scroll position on the Y-axis
 
-    // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 40) {
-            $('.navbar').addClass('sticky-top');
-        } else {
-            $('.navbar').removeClass('sticky-top');
-        }
-    });
-    
-    // Dropdown on mouse hover
-    
-    
-})(jQuery);
+    if (scrollPosition > 100) { // Adjust 100px to the point where you want to trigger the class
+        element.classList.add('fixed-top');
+
+    } else {
+        element.classList.remove('fixed-top');
+    }
+};
