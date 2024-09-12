@@ -163,6 +163,10 @@
     width: 100%;
   }
 
+  .navbar-collapse.show {
+    min-height: 100vh;
+  }
+
   .navbar-brand img{
     height: 40px;
     width: auto;
