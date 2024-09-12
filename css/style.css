@@ -227,11 +227,58 @@
   .banner{
     height: 300px;
   }
+  
+  .banner.canada {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.052), rgba(0, 0, 0, 0.757)), 
+    url(../images/canada-banner.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .banner.uk {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.052), rgba(0, 0, 0, 0.757)), 
+    url(../images/uk-banner.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .banner.usa {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.052), rgba(0, 0, 0, 0.757)), 
+    url(../images/usa-banner.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
   .banner.australia {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.052), rgba(0, 0, 0, 0.757)), 
     url(../images/australia-banner.jpg);
     background-attachment: fixed;
   }
+
+  .banner.new-zealand {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.052), rgba(0, 0, 0, 0.757)), 
+    url(../images/new-zealand-banner.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .banner.ireland {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.052), rgba(0, 0, 0, 0.372)), 
+    url(../images/ireland-banner.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+
   .banner-header {
     font-family: var(--sFont);
     font-weight: 700;
@@ -277,9 +324,7 @@
   }
 
   /* WHY NEMCL */
-  .bg- {
-    background-color: var(--light);
-  }
+  
 
   
   
