@@ -464,6 +464,34 @@
   line-height: 150%;
 }
 
+/* consultation-service book-now */
+
+.banner.canada-visitor-visa {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.052), rgba(0, 0, 0, 0.372)), 
+  url(../images/canada-visitor-visa.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.consultation-service.book-now {
+  background-color: var(--sColor);
+  color: var(--light);
+}
+
+.consultation-service.book-now h2 {
+  font-weight: 700;
+  font-family: var(--sFont);
+}
+
+.consultation-service.book-now a {
+  background-color: var(--tColor);
+  font-weight: 600;
+  color: var(--aColor);
+}
+
 /* Footer */
 footer {
   background-color: var(--aColor);
@@ -484,4 +512,16 @@ footer .fa-instagram:hover {
 
 footer .fa-whatsapp:hover {
   color: #25d366;
+}
+
+footer .fa-youtube:hover {
+  color: red;
+}
+
+.address {
+  margin-bottom: 10px;
+}
+
+.address span {
+  color: var(--tColor);
 }
