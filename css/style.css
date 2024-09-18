@@ -425,6 +425,53 @@
   opacity: 1;
 }
 
+/* Consultation */
+.pricing .card {
+  border-color: var(--sColor);
+}
+
+.pricing .card-header {
+  background-color: var(--sColor);
+  color: white;
+}
+
+.pricing .card-body .btn {
+  border-color: var(--sColor);
+  color: var(--sColor);
+}
+
+.pricing .card-body .btn {
+  background-color: var(--sColor);
+  color: var(--light);
+}
+
+.pricing-2 .card {
+  border-color: var(--tColor);
+}
+
+.pricing-2 .card-header {
+  background-color: var(--tColor);
+  color: white;
+}
+
+.pricing-2 .card-body .btn {
+  border-color: var(--tColor);
+  color: var(--tColor);
+}
+
+.pricing-2 .card-body .btn {
+  background-color: var(--tColor);
+  color: var(--light);
+}
+
+.modal-footer {
+  border-top: 2px solid var(--sColor);
+}
+
+
+
+
+
 /* Study Content */
 .paragraph p {
   /* text-align: justify; */
