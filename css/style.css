@@ -171,6 +171,12 @@
     width: 100%;
   }
 
+  .navbar.fixed-top {
+    /* border-bottom: 1px solid var(--sColor); */
+    background-color:#dbf9db4d !important;
+    backdrop-filter: blur(7px);
+  }
+
   .navbar-collapse.show {
     min-height: 100vh;
   }
