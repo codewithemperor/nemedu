@@ -12,6 +12,10 @@
       .feature {
         padding: 5px 15px;
       }
+
+      iframe {
+        height: 200px;
+      }
 }
 
 /* Small devices (landscape phones, between 576px and 767.98px) */
@@ -23,6 +27,12 @@
     .feature {
         padding: 5px 20px;
       }
+
+      iframe {
+        height: 400px;
+      }
+
+      
 }
 
 
@@ -36,6 +46,10 @@
     .feature {
         padding: 5px 20px;
       }
+
+      iframe {
+        height: 400px;
+      }
 }
 
 /* Large  devices (desktop, 992px and up) */
@@ -43,4 +57,8 @@
     .banner-wrapper {
         background-size: cover;
     }
+    
+    iframe {
+        height: 320px;
+      }
 }

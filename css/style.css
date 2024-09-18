@@ -128,12 +128,16 @@
     border: 1px solid var(--sColor);
   }
 
-  .title {
+  .title, .title.a {
     font-family: var(--sFont);
-    font-size: 36px;
     font-weight: 700;
     color: var(--dark);
   }
+  
+  .title:not(.display-5){
+    font-size: 36px;
+  }
+
 
   .title::after {
     content: "";
@@ -154,6 +158,10 @@
 }
 .font-secondary.p-color {
   color: var(--pColor);
+}
+
+.s-color {
+  color: var(--sColor);
 }
 
 
@@ -229,7 +237,7 @@
     /* background-size: cover; */
   }
   .banner{
-    height: 300px;
+    height: 200px;
   }
   
   .banner.two {
