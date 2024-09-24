@@ -474,6 +474,14 @@
   border-top: 2px solid var(--sColor);
 }
 
+.pricing li {
+  margin-bottom: 5px;
+}
+.pricing li i{
+  margin-right: 5px;
+  font-size: 12px;
+  color: var(--sColor);
+}
 
 
 
